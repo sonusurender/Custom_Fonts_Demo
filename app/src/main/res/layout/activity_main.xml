@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/homePageTitle"
+        android:textColor="#42A5F5"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!--  Use Open Sans Light Font Custom TextView  -->
+    <com.customfont_demo.CustomFontTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/openSansLight"
+        android:textColor="#ff00"
+        android:textSize="15sp" />
+
+    <!--  Use Open Sans Bold Font Custom TextView  -->
+    <com.customfont_demo.CustomBoldFontTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/openSansBold"
+        android:textColor="#ff6600"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/smartwatchFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/smartwatch"
+        android:textColor="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rupeeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#1E7A9C"
+        android:textSize="15sp" />
+
+</LinearLayout>

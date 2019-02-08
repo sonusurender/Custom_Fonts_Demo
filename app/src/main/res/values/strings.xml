@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Custom Font Demo</string>
+
+    <string name="homePageTitle">Custom Font Styles</string>
+    <string name="openSansLight">This is Open Sans Light text.</string>
+    <string name="openSansBold">This is Open Sans Bold text.</string>
+    <string name="smartwatch">This is Styled Custom text.</string>
+</resources>
